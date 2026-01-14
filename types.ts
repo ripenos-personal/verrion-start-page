@@ -12,7 +12,8 @@ export interface AppLink {
   name: string;
   url: string;
   category: Category;
-  icon: LucideIcon;
+  icon: LucideIcon | string;
+  isCustom?: boolean;
 }
 
 export interface AppState {
