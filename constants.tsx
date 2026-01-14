@@ -15,6 +15,7 @@ import {
   Cloud, 
   Zap, 
   Search,
+  Globe,
   BrainCircuit
 } from 'lucide-react';
 import { AppLink, Category } from './types';
@@ -149,3 +150,24 @@ export const CATEGORIES = [
 ];
 
 export const MAX_PINS = 5;
+
+export const ICON_MAP: Record<string, any> = {
+  Mail, 
+  MessageSquare, 
+  Flame, 
+  FileText, 
+  CreditCard, 
+  Table, 
+  Calendar, 
+  Linkedin, 
+  ShieldCheck, 
+  Rocket, 
+  BarChart, 
+  Github, 
+  Triangle, 
+  Cloud, 
+  Zap, 
+  Search,
+  BrainCircuit,
+  Globe
+};
